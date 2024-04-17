@@ -1,0 +1,82 @@
+Day 1
+
+Pre - requisites
+1)
+Problem: you have been given a doubly linked list, rotate the linked list counter clock wise, Now in this scenario you will also be given a positive integer N using which you need to rotate the linked list counter clockwise.
+
+This N will be smaller than the total numer of nodes in the linked list, which makes it valid to rotate the linked list counter clockwise.
+
+
+Languages are divided into 2 categories:
+a) Based on translations
+1) compiled:     Uses compiler. 
+	       Compiler scans the whole code. checked for errors and then gets translated at a time to a .exe file.
+	       Compilers only translate the code.
+	       Compilers are faster.
+		C & C++ language compiler is mingw
+2) interpreted:  Uses interpreter
+	        Scans the code and translates it line by line.
+	        Interpreters can translate and excute.
+	        Interpreters are slower.
+
+Java is compiled and interpreted! Why? How?
+	There are 2 compilers in Java: Javac & Just In Time compiler.
+	Javac converts .java file to .class file (Byte code) not executable by the machine yet.
+	JIT will interpret and execute this Byte code and hence Java is both compiled and interpreted.
+
+JDK----> JRE & Dev Tools
+			|	|
+			|	|	 
+			JIT	Javac
+			JVM
+
+b) Based on typing
+1) Statically typed:    Ex: int a; the memory location is fixed only for int data type. We declare the variables.
+2)Dnamically typed:  Variables can store any value of any datatype, datatype can be changed in runtime. Even return types. No need/ cannot declare the variables.
+
+
+OBJECT ORIENTED PROGRAM
+Main aims: 1) code reusability.
+	  2) code security.
+Classes is a nonprimitive/ user defined datatype.
+Advantages of using classes:
+1) reusability.
+
+Objects are the variables declared with the user define data type or the class.
+In JAVA ->Objects are allocated size by JRE depending on the size of the class. And this is calculated by the compiler.
+
+The job of a Consructor.
+1) Contruct the object.
+2) intialises all the attributes of the class.
+
+4 pillars of OOP
+1) Inheritance.
+	All properties of parent class can be inherited by child class.
+2) Polymorphism
+3) Encapsulation
+4) Abstracion
+
+C basics:
+	Main function in compiled languages marks the beginning  from where macine to begins to executing the code. 
+
+C++ basics:
+	cout and cin are not functions, the are commands to feed the i/o streams.
+	using namespace std; its written to avoid/fix name collisions.
+
+Assignment:
+1) Learn about preprocessor directives.
+
+	There are 3 types of preprocessor directives.
+		i) File inclusion: 
+			Includes files before compilation starts.
+			
+		ii)Macro Substiution:
+			Used to define values bbefore comilation of program.
+		
+		iii)Compiler Control: 
+			instructing compiler to check if macro is defined.
+
+	(Anything in C resembling languages starting with # is a preprocessor).
+	# will preprocess entire code before sending it to the compiler.
+
+2) Find how many jumps are needed in order to reach the last elemnt in a given array
